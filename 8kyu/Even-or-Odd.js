@@ -9,3 +9,8 @@ function evenOrOdd(number) {
     return "Odd";
   }
 }
+
+// Alternative solution using the short-hand ternary operator
+function evenOrOdd(number) {
+  return number % 2 === 0 ? "Even" : "Odd";
+}
